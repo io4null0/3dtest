@@ -38,7 +38,7 @@
 
             // GLTFLoaderでモデルをロード
             const loader = new THREE.GLTFLoader();
-            loader.load('FabConvert.com_your_name_scene.zip', (gltf) => {
+            loader.load('FabConvert.com_your_name_scene.glb', (gltf) => {
                 model = gltf.scene;
                 scene.add(model);
             });
